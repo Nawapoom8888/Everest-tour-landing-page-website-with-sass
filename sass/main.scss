@@ -1,0 +1,24 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// base
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// Component
+@import "components/navbar";
+@import "components/hero";
+@import "components/button";
+@import "components/composition";
+@import "components/service-box";
+@import "components/step-box";
+@import "components/testimonial-box";
+@import "components/ourGuide-box";
+@import "components/imageGrid";
+@import "components/footer";
+
+// Pages
+@import "pages/home";

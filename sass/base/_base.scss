@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+  @include screen(md) {
+    font-size: 52%;
+  }
+  @include screen(sm) {
+    font-size: 44%;
+  }
+}
+
+body {
+  padding: 2rem;
+  box-sizing: border-box;
+
+  @include screen(sm) {
+    padding: 0;
+  }
+}
+
+.container {
+  height: 100%;
+  max-width: 128rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.border-test {
+  // border: 1px red solid;
+}

@@ -1,0 +1,75 @@
+.utils-flex-center-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.utils-center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.utils-text-white {
+  color: $color-grey-white;
+}
+
+.utils-margin-bottom-3-rem {
+  margin-bottom: 3rem;
+}
+
+.utils-margin-bottom-6-rem {
+  margin-bottom: 6rem;
+}
+
+.utils-margin-bottom-9-rem {
+  margin-bottom: 9rem;
+}
+
+.utils-margin-bottom-12-rem {
+  margin-bottom: 12rem;
+}
+
+.utils-margin-top-3-rem {
+  margin-top: 3rem;
+}
+
+.utils-margin-top-6-rem {
+  margin-top: 6rem;
+}
+
+.utils-margin-top-9-rem {
+  margin-top: 9rem;
+}
+
+.utils-margin-top-12-rem {
+  margin-top: 12rem;
+}
+
+.bg-2-section {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 1) 15%,
+      rgba(#172554, 0.8) 65%,
+      rgba(#000000, 0.6) 100%
+    ),
+    url("../../public/images/guide-client-bg.avif");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 0 0;
+  margin-top: 18rem;
+  z-index: 0;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(black, 0.65);
+  z-index: 100;
+}

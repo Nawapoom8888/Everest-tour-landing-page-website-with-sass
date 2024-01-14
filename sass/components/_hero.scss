@@ -1,0 +1,47 @@
+.hero {
+  &__text-box {
+    position: relative;
+    top: -2.5rem;
+    max-width: 65rem;
+    color: $color-white;
+    margin-right: 16rem;
+  }
+
+  &__social-media-list {
+    display: flex;
+    font-size: 2.5rem;
+    gap: 1.5rem;
+
+    > * {
+      transition: all 0.3s;
+      &:hover {
+        cursor: pointer;
+        color: darken($color-grey-white, 15%);
+      }
+    }
+  }
+
+  &__register-btn {
+    display: inline-block;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    letter-spacing: 0.12rem;
+    font-weight: 200;
+    margin-top: 3rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid $color-white;
+    transition: all 0.3s;
+
+    &--arrow {
+      position: relative;
+      top: 0.9rem;
+      font-size: 3rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+      border-bottom: 1px solid darken($color-grey-white, 15%);
+      color: darken($color-grey-white, 15%);
+    }
+  }
+}

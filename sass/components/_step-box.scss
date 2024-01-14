@@ -1,0 +1,46 @@
+.step__box {
+  background-color: rgba($color-white, 0.75);
+  box-shadow: 0 2rem 4rem rgba($color-grey-black, 0.15);
+  max-width: 37rem;
+  height: 36rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &--text {
+    display: flex;
+    flex-direction: column;
+
+    &:nth-child(1) {
+      display: flex;
+    }
+
+    p {
+      color: lighten($color-grey-black, 20%);
+    }
+  }
+
+  &--heading {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+
+    .no {
+      font-size: 5.5rem;
+    }
+  }
+
+  &--btn {
+    div {
+      display: inline-block;
+      padding-bottom: 0.2rem;
+      border-bottom: 0.2rem solid $color-grey-black;
+      cursor: pointer;
+      transition: all 0.2s;
+      &:hover {
+        color: lighten($color-grey-black, 15%);
+      }
+    }
+  }
+}

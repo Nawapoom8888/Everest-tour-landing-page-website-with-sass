@@ -1,0 +1,14 @@
+.btn {
+  font-family: inherit;
+  letter-spacing: 0.22rem;
+  color: $color-white;
+  padding: 1.4rem 2.8rem;
+  background-color: $color-grey-black;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($color-grey-black, 15%);
+  }
+}

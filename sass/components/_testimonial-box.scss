@@ -1,0 +1,78 @@
+.box {
+  position: relative;
+
+  &__side {
+    background: $color-grey-black;
+    background: linear-gradient(
+      to bottom,
+      rgba(lighten($color-grey-black, 8%), 1) 30%,
+      rgba($color-grey-black, 1) 75%,
+      rgba($color-black, 1) 100%
+    );
+    box-shadow: 0 1rem 3rem rgba($color-black, 0.6);
+    height: 50rem;
+    width: 28rem;
+    transition: all 0.8s ease-out;
+    backface-visibility: hidden;
+    display: flex;
+    row-gap: 1.4rem;
+    flex-direction: column;
+    text-align: center;
+    color: darken($color-grey-white, 10%);
+
+    &--front {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &--back {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 3rem;
+      transform: rotateY(180deg);
+    }
+
+    .profile-img {
+      height: 12rem;
+      width: 12rem;
+      border-radius: 100%;
+      border: 3.6px $color-grey-white solid;
+      overflow: hidden;
+      margin: 0 auto;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .profile-info {
+      margin-bottom: 1rem;
+
+      &--name {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      &--nationality {
+        font-size: 1.8rem;
+      }
+    }
+
+    .profile-message {
+      font-size: 1.55rem;
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0deg);
+  }
+}

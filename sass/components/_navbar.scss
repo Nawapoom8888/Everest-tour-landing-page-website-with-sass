@@ -1,0 +1,91 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__brand-logo {
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: $color-white;
+  }
+
+  &__menu {
+    position: relative;
+
+    &--btn {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .menu__icon {
+        font-size: 4rem;
+        color: $color-grey-white;
+        cursor: pointer;
+        transition: all 0.2s;
+        &:hover {
+          color: darken($color-grey-white, 15%);
+        }
+      }
+    }
+
+    &--background {
+      &-close {
+        background-color: $color-grey-black;
+        width: 30rem;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 2rem;
+        z-index: 1000;
+        transition: all 0.2s;
+        transform: translateX(-30rem);
+      }
+
+      &-open {
+        background-color: $color-grey-black;
+        width: 30rem;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 2rem;
+        z-index: 1000;
+        transition: all 0.2s;
+        transform: translateX(0);
+      }
+    }
+
+    &--list {
+      color: $color-grey-white;
+      list-style: none;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      > * {
+        transition: all 0.2s;
+        &:hover {
+          cursor: pointer;
+          color: darken($color-grey-white, 15%);
+        }
+      }
+    }
+
+    .close-icon {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 2rem;
+      font-size: 3rem;
+      color: $color-grey-white;
+      cursor: pointer;
+      transition: all 0.2s;
+      &:hover {
+        color: darken($color-grey-white, 15%);
+      }
+    }
+  }
+}

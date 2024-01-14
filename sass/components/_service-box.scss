@@ -1,0 +1,39 @@
+.service {
+  &__box-list {
+    position: relative;
+    top: -5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+
+    &--item {
+      display: inline-block;
+      max-width: 36rem;
+      color: darken($color-grey-white, 8%);
+
+      &:nth-child(2) {
+        position: relative;
+        top: 12rem;
+      }
+
+      @include screen(1303px) {
+        &:nth-child(2) {
+          position: relative;
+          top: 0;
+        }
+      }
+
+      // @include screen(lg) {
+      //   &:nth-child(2) {
+      //     position: relative;
+      //     top: 0;
+      //   }
+      //   &:nth-child(3) {
+      //     position: relative;
+      //     top: 0;
+      //   }
+      // }
+    }
+  }
+}

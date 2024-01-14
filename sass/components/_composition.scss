@@ -1,0 +1,27 @@
+.composition {
+  box-shadow: 0 1rem 4rem rgba($color-grey-black, 0.5);
+  z-index: 10;
+  transition: all 0.2s;
+  outline-offset: 1.2rem;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 1.5rem 4.5rem rgba($color-grey-black, 0.55);
+    outline: 1rem solid $color-grey-black;
+    z-index: 20;
+  }
+}
+
+.composition--white {
+  box-shadow: 0 1rem 4rem rgba($color-grey-black, 0.5);
+  z-index: 10;
+  transition: all 0.3s;
+  outline-offset: 1.2rem;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 1.5rem 4.5rem rgba($color-grey-black, 0.55);
+    outline: 1rem solid $color-grey-white;
+    z-index: 20;
+  }
+}
