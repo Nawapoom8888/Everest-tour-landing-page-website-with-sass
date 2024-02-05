@@ -5,7 +5,7 @@
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.2)
     ),
-    url("../../public/images/hero-bg.webp");
+    url("../../images/hero-bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -149,7 +149,7 @@
 
     &--img1 {
       position: absolute;
-      background-image: url("../../public/images/about-img-01.avif");
+      background-image: url("../../images/about-img-01.avif");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -178,7 +178,7 @@
       position: absolute;
       right: 25em;
       top: 35em;
-      background-image: url("../../public/images/about-img-02.avif");
+      background-image: url("../../images/about-img-02.avif");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -209,7 +209,7 @@
       top: 60em;
       right: 0;
       z-index: 10;
-      background-image: url("../../public/images/about-img-03.avif");
+      background-image: url("../../images/about-img-03.avif");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -234,7 +234,7 @@
       position: absolute;
       top: 114em;
       right: 25em;
-      background-image: url("../../public/images/about-img-04.avif");
+      background-image: url("../../images/about-img-04.avif");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -291,7 +291,7 @@
       rgba(#000928, 0.85),
       rgba(#000d28, 0.65)
     ),
-    url("../../public/images/service-bg.avif");
+    url("../../images/service-bg.avif");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -375,7 +375,7 @@
 
 .contact-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../public/images/contact-bg.avif");
+    url("../../images/contact-bg.avif");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

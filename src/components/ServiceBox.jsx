@@ -6,7 +6,7 @@ export default function ServiceBox(props) {
       <div
         className="utils-margin-bottom-6-rem composition--white"
         style={{
-          backgroundImage: `url(../../public/images/${props.img})`,
+          backgroundImage: `url(../../images/${props.img})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",

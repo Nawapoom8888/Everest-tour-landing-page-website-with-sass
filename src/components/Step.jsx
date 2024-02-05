@@ -6,7 +6,7 @@ export default function Step() {
     <div className="step-section border-test">
       <div className="bg-video">
         <video className="bg-video__content" autoPlay loop muted>
-          <source src="../../public/videos/bg-video.mp4" type="video/mp4" />
+          <source src="../../videos/bg-video.mp4" type="video/mp4" />
           Your browser does not support the video tag!
         </video>
       </div>
