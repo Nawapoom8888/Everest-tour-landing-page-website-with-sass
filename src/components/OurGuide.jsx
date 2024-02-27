@@ -21,7 +21,7 @@ export default function OurGuide() {
           />
           <OurGuideBox
             imgURL="guide-03.avif"
-            name="John simmer"
+            name="John Simmer"
             role="Lead Guide"
           />
         </div>

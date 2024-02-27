@@ -28,10 +28,14 @@
   margin-top: 2rem;
   position: relative;
 
+  @include screen(sm) {
+    margin-top: 0;
+  }
+
   &__text-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 3rem;
+    row-gap: 5rem;
     column-gap: 10rem;
 
     @include screen(sm) {

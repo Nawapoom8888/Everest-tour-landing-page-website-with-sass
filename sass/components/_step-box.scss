@@ -32,11 +32,10 @@
   }
 
   &--btn {
-    div {
+    > * {
       display: inline-block;
       padding-bottom: 0.2rem;
       border-bottom: 0.2rem solid $color-grey-black;
-      cursor: pointer;
       transition: all 0.2s;
       &:hover {
         color: lighten($color-grey-black, 15%);

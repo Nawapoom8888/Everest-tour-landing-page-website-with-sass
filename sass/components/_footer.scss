@@ -15,6 +15,10 @@
     color: $color-grey-white;
     border-top: 1px solid $color-grey-white;
     padding-top: 3rem;
+
+    > * {
+      cursor: pointer;
+    }
   }
   &__copyright {
     text-align: center;
